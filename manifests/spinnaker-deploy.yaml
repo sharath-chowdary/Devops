@@ -1,7 +1,8 @@
 apiVersion: v1
 kind: Namespace
 metadata:
-  name: '${ parameters.namespace ?: staging }'      
+  name: '${ parameters.namespace ?: staging }' 
+  
 apiVersion: apps/v1
 kind: Deployment
 metadata:
